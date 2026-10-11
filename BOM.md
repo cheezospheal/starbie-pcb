@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [XIAO ESP32C3](https://www.amazon.ca/MiiElAOD-High-Performance-Cost-Effective-1PCS-Kit/dp/B0GDG7YRGW/ref=asc_df_B0GDG7YRGW?mcid=c3c8863449923deb82a1a4779cbbab0e&tag=googleshopc0c-20&linkCode=df0&hvadid=803091086323&hvpos=&hvnetw=g&hvrand=8414720962410478217&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000910&hvtargid=pla-2493221044780&hvocijid=8414720962410478217-B0GDG7YRGW-&hvexpln=0&gad_source=1&th=1) | micrcontroller for interpreting data and executing code | 1 | $10.11 | $10.11 | [Amazon](https://www.amazon.ca/MiiElAOD-High-Performance-Cost-Effective-1PCS-Kit/dp/B0GDG7YRGW/ref=asc_df_B0GDG7YRGW?mcid=c3c8863449923deb82a1a4779cbbab0e&tag=googleshopc0c-20&linkCode=df0&hvadid=803091086323&hvpos=&hvnetw=g&hvrand=8414720962410478217&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000910&hvtargid=pla-2493221044780&hvocijid=8414720962410478217-B0GDG7YRGW-&hvexpln=0&gad_source=1&th=1) |
 | **Parts subtotal** | — | — | — | **$10.11** | — |
-| **Tax & shipping** | — | — | — | **$100.00** | — |
-| **Total** | — | — | — | **$110.11** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$10.11** | — |
 
-**$80.11 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$19.89 left of the tier's funding.
