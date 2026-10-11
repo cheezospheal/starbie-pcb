@@ -13,7 +13,8 @@ Here is a list of what each file does:
 |starbie_pcb.kicad_pro|contains the project settings and configuration
 |starbie_pcb.kicad_sch|contains the schematic and connections
 |Starbie.ino|contains the code used to run the micrcontroller
-|StarbieGerberArchive.zip|contains several gerber files
+|starbie_pcb_gerbers.zip|contains several gerber files
+|bom.csv|bill of materials
 
 ## Schematic
 The first step of creating Starbie was creating the schematic in KiCad's PCB Schematic editor. To see the schematic, open up the kicad_sch file. In the schematic, there'll be some main parts:
