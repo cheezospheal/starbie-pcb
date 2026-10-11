@@ -4,11 +4,7 @@ A compilation of all the files for the Starbie PCB project on Half Life!
 ## Summary
 Starbie is a custom-designed PCB for a portable, interactive pet keychain (inspired by Tamagotchi), including a pet that reacts to different actions by the user (shaking, pressing buttons, etc.) and the environment (temperature).
 
-The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic code. If I hadn't been a beginner, I'd choose to make something similar to Starbie anyways! 
-
-Here is a screenshot of the finished product before I get into all the details:
-
-<img width="442" height="377" alt="image" src="https://github.com/user-attachments/assets/5ece9a62-a5d2-46b5-8458-111399f36057" />
+The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only relatively easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic Arduino code. I'm more of a creative than technical person, but I feel that this is the perfect beginner project that enhances both. I was already interested in exploring electronics, and, using some of my own skills and interests, I think my Starbie turned out great. 
 
 Here is a list of what each file does:
 |File|What's Inside?|
@@ -42,7 +38,7 @@ For my images, I uploaded a sprite of Jolteon, an apple core, and some sparkles 
 
 KiCad also has a 3D viewer so you can see what your PCB will probably eventually look like!
 
-<img width="390" height="353" alt="image" src="https://github.com/user-attachments/assets/2f6fea7b-4011-47ac-829b-21dc10a8fccc" />
+<img width="431" height="393" alt="image" src="https://github.com/user-attachments/assets/f63e5f11-6177-4ac2-9410-b27e193c56ed" />
 
 ## Customizing Firmware
 After making the PCB, move on to the firmware in Arduino. The code was very easy to customize, so here's the things I did to change it up and make it my own. (to change it yourself, find the specific functions)
