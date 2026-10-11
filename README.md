@@ -9,9 +9,9 @@ The PCB was designed with **KiCad** and the code was made with **Arduino**. I in
 Here is a list of what each file does:
 |File|What's Inside?|
 |---|---|
-|Starbie PCB.Schematic.kicad_pcb|contains the PCB layout, including the routing, footprints, and edge cuts
-|Starbie PCB Schematic.kicad_pro|contains the project settings and configuration
-|Starbie PCB Schematic.kicad_sch|contains the schematic and connections
+|starbie_pcb.kicad_pcb|contains the PCB layout, including the routing, footprints, and edge cuts
+|starbie_pcb.kicad_pro|contains the project settings and configuration
+|starbie_pcb.kicad_sch|contains the schematic and connections
 |Starbie.ino|contains the code used to run the micrcontroller
 |StarbieGerberArchive.zip|contains several gerber files
 
