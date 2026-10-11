@@ -8,6 +8,15 @@ Here is a screenshot of the finished product before I get into all the details:
 
 <img width="442" height="377" alt="image" src="https://github.com/user-attachments/assets/5ece9a62-a5d2-46b5-8458-111399f36057" />
 
+Here is a list of what each file does:
+|File|What's Inside?|
+|---|---|
+|Starbie PCB.Schematic.kicad_pcb|contains the PCB layout, including the routing, footprints, and edge cuts
+|Starbie PCB Schematic.kicad_pro|contains the project settings and configuration
+|Starbie PCB Schematic.kicad_sch|contains the schematic and connections
+|Starbie.ino|contains the code used to run the micrcontroller
+|StarbieGerberArchive.zip|contains several gerber files
+
 ## Schematic
 The first step of creating Starbie was creating the schematic in KiCad's PCB Schematic editor. To see the schematic, open up the kicad_sch file. In the schematic, there'll be some main parts:
 * XIAO-ESP32-C3-SMD: The microcontroller of the project, interpreting and executing the code
