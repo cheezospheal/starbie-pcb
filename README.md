@@ -2,7 +2,9 @@
 A compilation of all the files for the Starbie PCB project on Half Life!
 
 ## Summary
-Starbie is a Tamagotchi-style toy, including a pet that reacts to different actions by the user (shaking, pressing buttons, etc.) and the environment (temperature, The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic code. If I hadn't been a beginner, I'd choose to make something similar to Starbie anyways! 
+Starbie is a custom-designed PCB for a portable, interactive pet keychain (inspired by Tamagotchi), including a pet that reacts to different actions by the user (shaking, pressing buttons, etc.) and the environment (temperature).
+
+The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic code. If I hadn't been a beginner, I'd choose to make something similar to Starbie anyways! 
 
 Here is a screenshot of the finished product before I get into all the details:
 
@@ -34,7 +36,7 @@ After that, take a look at the routing by opening up the kicad_pcb file.
 
 The red lines represent the copper traces on the front of the board, while the blue lines represent the copper traces on the black of the board. These copper lines allow the microcontroller to transmit and receive data to interpret, which will then be used for the pet. Furthermore, the red overlay on top of the PCB is the GND pour. Another thing you'll notice is the customization of the PCB, including the text, images, and shape of the PCB. The shape was made using the Edge Cuts layer. To edit it, draw your own lines or move the existing vertices. Just note that you'll have to edit the GND pour as well and refill it by pressing B. To add images, use the image converter to turn the image into a bitmap, then into a footprint, and add it on as a footprint by pressing A. KiCad has a built-in text function, so you can use that as well. Also, make sure to put the layer for both images and text as F.Silkscreen!
 
-For my images, I uploaded a sprite of Jolteon, an apple core, and some sparkles. Just make sure that, if you are using a sprite for a game, find a scaled-up version rather than the original sprites. KiCad will scale-up the sprite into a blurry mess that looks nothing like the original sprite. I used Wingdings for my font because it looks more interesting than just a basic readable font :)
+For my images, I uploaded a sprite of Jolteon, an apple core, and some sparkles using the method above. Just make sure that, if you are using a sprite for a game, find a scaled-up version rather than the original sprites. I also added a keychain hole as a mounting hole. KiCad will scale-up the sprite into a blurry mess that looks nothing like the original sprite. I used Wingdings for my font because it looks more interesting than just a basic readable font.
 
 <img width="479" height="433" alt="image" src="https://github.com/user-attachments/assets/dddfa2d5-8472-44e5-b999-9d2271f5fd2d" />
 
