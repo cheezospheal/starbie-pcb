@@ -1,11 +1,14 @@
-# starbie-pcb
+# Making a Starbie!
 A compilation of all the files for the Starbie PCB project on Half Life!
-Starbie is a Tamagotchi-style toy, including a pet that reacts to different actions by the user (such as shaking, pressing buttons, etc.) The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic code. If I hadn't been a beginner, I'd choose to make something similar to Starbie anyways! 
+
+## Summary
+Starbie is a Tamagotchi-style toy, including a pet that reacts to different actions by the user (shaking, pressing buttons, etc.) and the environment (temperature, The PCB was designed with **KiCad** and the code was made with **Arduino**. I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic code. If I hadn't been a beginner, I'd choose to make something similar to Starbie anyways! 
 
 Here is a screenshot of the finished product before I get into all the details:
 
 <img width="442" height="377" alt="image" src="https://github.com/user-attachments/assets/5ece9a62-a5d2-46b5-8458-111399f36057" />
 
+## Schematic
 The first step of creating Starbie was creating the schematic in KiCad's PCB Schematic editor. To see the schematic, open up the kicad_sch file. In the schematic, there'll be some main parts:
 * XIAO-ESP32-C3-SMD: The microcontroller of the project, interpreting and executing the code
 * DHT11: A sensor for temperature and humidity for interactions with the pet
@@ -17,6 +20,7 @@ The way they are connected is either through wires or through net labels (which 
 
 <img width="388" height="419" alt="image" src="https://github.com/user-attachments/assets/504e8148-447d-47d0-afa7-975daf2d96a8" />
 
+## Routing & Customization
 After that, take a look at the routing by opening up the kicad_pcb file.
 
 The red lines represent the copper traces on the front of the board, while the blue lines represent the copper traces on the black of the board. These copper lines allow the microcontroller to transmit and receive data to interpret, which will then be used for the pet. Furthermore, the red overlay on top of the PCB is the GND pour. Another thing you'll notice is the customization of the PCB, including the text, images, and shape of the PCB. The shape was made using the Edge Cuts layer. To edit it, draw your own lines or move the existing vertices. Just note that you'll have to edit the GND pour as well and refill it by pressing B. To add images, use the image converter to turn the image into a bitmap, then into a footprint, and add it on as a footprint by pressing A. KiCad has a built-in text function, so you can use that as well. Also, make sure to put the layer for both images and text as F.Silkscreen!
@@ -29,6 +33,7 @@ KiCad also has a 3D viewer so you can see what your PCB will probably eventually
 
 <img width="390" height="353" alt="image" src="https://github.com/user-attachments/assets/2f6fea7b-4011-47ac-829b-21dc10a8fccc" />
 
+## Customizing Firmware
 After making the PCB, move on to the firmware in Arduino. The code was very easy to customize, so here's the things I did to change it up and make it my own. (to change it yourself, find the specific functions)
 
 The pet comes with basic hearts, so I decided to replace it with a lightning bolt instead. I first drew it in Piskel (or use whatever sprite art app you have), and then just wrote the code to draw it by hand. The drawPixel function works as if you were drawing pixels relative to a certain point. So, if you wanted to draw a pixel 1 pixel left of the "anchor point", you would use x - 1. 
@@ -43,6 +48,7 @@ The biggest part was designing the pet sprite, which I have as a Jolteon. Simply
 
 the sprite I made -> <img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/53e2f84c-0a87-4b8c-941b-834d473e91e5" />
 
+## Bill of Materials
 After completely designing the PCB and finishing your code, start planning for when you actually build your PCB by ordering the parts! I created a Bill of Materials, which lists the specific names, quantities, and prices for the parts of the PCB. Use the StarbieGerberArchive.zip when manufacturing the PCB. It is both below and in the bom.csv. 
 
 
