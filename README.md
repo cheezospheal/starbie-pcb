@@ -68,7 +68,7 @@ I also made the third switch that I added have a function by making it do the AT
 
 
 ## Bill of Materials
-After completely designing the PCB and finishing your code, start planning for when you actually build your PCB by ordering the parts! I created a Bill of Materials (BOM), which lists the specific names, quantities, and prices for the parts of the PCB. Use the collection of gerber files, starbiepcb_gerbers.zip, when manufacturing the PCB. It is both below and in bom.csv.
+After completely designing the PCB and finishing your code, start planning for when you actually build your PCB by ordering the parts! I created a Bill of Materials (BOM), which lists the specific names, quantities, and prices for the parts of the PCB. Use the collection of gerber files, starbiepcb_gerbers.zip, when manufacturing the PCB. The BOM is both below and in bom.csv.
 
 Part|Quantity|Price (USD)|Vendor|Link
 |---|---|---|---|---|
@@ -82,10 +82,10 @@ MX Switch Keycaps|1|$6.01|Amazon|https://www.amazon.ca/Profile-Mechanical-Keyboa
 PCB|1|$4.00|JLCPCB|https://cart.jlcpcb.com/quote?stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5&plateType=1&spm=Jlcpcb.Homepage.1010
 Shipping & Taxes|-|$39.11|-|-
 
-## Extra Notes
+## Extra Notes [Half-Life]
 When reviewing the BOM, note that, for some vendors, I had specific promotions/coupons that helped reduce the shipping price. For example, there is a light-package promotion for BC Robotics that allow for free shipping during the fall. This is why my BOM fits under $30 in BOM.md even though the shipping is almost $40 in bom.csv. These promotions may not be applicable to everybody. Furthermore, the shipping and taxes are based on Ontario GST and HST, and it ships to an Ontario address. Therefore, prices may vary based on your location. I am also going to be buying some parts out of my own pocket (not with the grant), which have a price of $0.01 in the BOM.
 
-The cart screenshots submitted on the Half-Life website are in CAD, not USD. The links also lead to Canadian websites that are in CAD. Each individual item in BOM.md was converted from CAD to USD. Because of this, there is a small rounding error due to the exchange rate. As a result, if you add up the cart totals together and convert to USD, it will be slightly off from the BOM, though I will be able to purchase the rest of the routing if necessary. 
+The cart screenshots submitted on the Half-Life website are in CAD, not USD. The links also lead to Canadian websites that are in CAD. Each individual item in BOM.md was converted from CAD to USD. Because of this, there is a small rounding error due to the exchange rate. As a result, if you add up the cart totals together and convert to USD, it will be slightly off from the BOM, though I will be able to purchase the rest of the rounding if necessary. 
 
 I had so much fun creating my Starbie and I can't wait to get into the other projects! ☆
 
