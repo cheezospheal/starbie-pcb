@@ -37,7 +37,7 @@ The way they are connected is either through wires or through net labels (which 
 <img width="319" height="355" alt="image" src="https://github.com/user-attachments/assets/b81eed3a-ebad-4eee-8d0b-804f3ee9d2fc" />
 
 
-## Routing & Customization
+## Routing & PCB Customization
 After that, take a look at the routing by opening up the kicad_pcb file.
 
 The red lines represent the copper traces on the front of the board, while the blue lines represent the copper traces on the black of the board. These copper lines allow the microcontroller to transmit and receive data to interpret, which will then be used for the pet. Furthermore, the red overlay on top of the PCB is the GND pour. Another thing you'll notice is the customization of the PCB, including the text, images, and shape of the PCB. The shape was made using the Edge Cuts layer. To edit it, draw your own lines or move the existing vertices. Just note that you'll have to edit the GND pour as well and refill it by pressing B. I also added an extra switch, which you can see in the bottom right corner of the star. To add images, use the image converter to turn the image into a bitmap, then into a footprint, and add it on as a footprint by pressing A. KiCad has a built-in text function, so you can use that as well. Also, make sure to put the layer for both images and text as F.Silkscreen!
@@ -48,7 +48,7 @@ For my images, I uploaded a sprite of Jolteon, an apple core, and some sparkles 
 
 KiCad also has a 3D viewer so you can see what your PCB will probably eventually look like!
 
-## Customizing Firmware
+## Firmware Customization
 After making the PCB, move on to the firmware in Arduino. The code was very easy to customize, so here's the things I did to change it up and make it my own. (to change it yourself, find the specific functions)
 
 The pet comes with basic hearts, so I decided to replace it with a lightning bolt instead. I first drew it in Piskel (or use whatever sprite art app you have), and then just wrote the code to draw it by hand. The drawPixel function works as if you were drawing pixels relative to a certain point. So, if you wanted to draw a pixel 1 pixel left of the "anchor point", you would use x - 1. 
