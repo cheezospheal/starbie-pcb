@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 12.8h | 12 |
+| Week 1 | Tier 1 | 13.3h | 12 |
 
 ## Contents
 
@@ -269,7 +269,7 @@ tl;dr is that I spent some time looking for products to add to my BOM after lots
 
 ### 2026-10-11 – # adding a switch
 
-**0.5h**
+**1h**
 
 # adding a switch
 
@@ -281,4 +281,8 @@ So this is my final PCB, complete with an added keychain hole and extra switch! 
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Fkyd7BnPhA7YS61rynMPOy9Dgjdve6I4/604b7879bac46d49ea50f0bec69e013750b497434c59af601fa60e2e1d42c843.png)
 
-tl;dr is that I added a new switch onto my PCB by editing both the schematic and layout
+I also edited some of the code in the Arduino to actually make the button do something, and I made it do the attack reaction automatically.
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Fkyd7BnPhA7YS61rynMPOy9Dgjdve6I4/ccccf5c7c09ac27a0691cb934dae778caf92b998386f08538902f008fd766b48.png)
+
+tl;dr is that I added a new switch onto my PCB by editing both the schematic and layout, and then I made it do the Attack animation when pressed in Arduino
