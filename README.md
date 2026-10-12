@@ -1,7 +1,7 @@
 # Starbie
-A custom-designed PCB for a portable, interactive pet keychain that reacts to different user actions and the environment
+A custom-designed PCB for a portable, interactive pet keychain that reacts to different user actions and the environment.
 
-I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only relatively easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic Arduino code. I'm more of a creative than technical person, but I feel that this is the perfect beginner project that enhances both. I was already interested in exploring electronics, and, using some of my own skills and interests, I think my Starbie turned out great! :)
+I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only relatively easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic Arduino code. I'm more of a creative than technical person, but I felt that this was the perfect beginner project that enhanced both. I was already interested in exploring electronics, and, using some of my own skills and interests, I think my Starbie turned out great! :)
 
 <img width="367" height="368" alt="image" src="https://github.com/user-attachments/assets/2c28185d-339a-410e-9c0d-e5838adbfbd9" />
 
@@ -83,7 +83,7 @@ When reviewing the BOM, note that, for some vendors, I had specific promotions/c
 
 The cart screenshots submitted on the Half-Life website are in CAD, not USD. The links also lead to Canadian websites that are in CAD. Each individual item in BOM.md was converted from CAD to USD. Because of this, there is a small rounding error due to the exchange rate. As a result, if you add up the cart totals together and convert to USD, it will be slightly off from the BOM, though I will be able to purchase the rest of the routing if necessary. 
 
-I had so much fun creating my Starbie and I can't wait to get into the other projects! :)
+I had so much fun creating my Starbie and I can't wait to get into the other projects! ☆
 
 
 
