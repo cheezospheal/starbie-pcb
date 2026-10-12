@@ -3,7 +3,7 @@ A custom-designed PCB for a portable, interactive pet keychain that reacts to di
 
 I initially made it only because it was the beginner project for Half Life, but I've also always been a fan of these kinds of toys. It's not only relatively easy to make, but also teaches most of the fundamentals of PCB building, such as footprints, Silkscreen, and basic Arduino code. I'm more of a creative than technical person, but I feel that this is the perfect beginner project that enhances both. I was already interested in exploring electronics, and, using some of my own skills and interests, I think my Starbie turned out great! :)
 
-<img width="431" height="393" alt="image" src="https://github.com/user-attachments/assets/f63e5f11-6177-4ac2-9410-b27e193c56ed" />
+<img width="367" height="368" alt="image" src="https://github.com/user-attachments/assets/2c28185d-339a-410e-9c0d-e5838adbfbd9" />
 
 ## Summary
 The PCB was designed with **KiCad** and the code was made with **Arduino**. To open the PCB yourself, install both KiCad and Arduino, then import the respective files (see below).
@@ -34,7 +34,8 @@ To see the schematic, open up the kicad_sch file. In the schematic, there'll be 
 
 The way they are connected is either through wires or through net labels (which connect parts without having to draw long wires). 
 
-<img width="388" height="419" alt="image" src="https://github.com/user-attachments/assets/504e8148-447d-47d0-afa7-975daf2d96a8" />
+<img width="319" height="355" alt="image" src="https://github.com/user-attachments/assets/b81eed3a-ebad-4eee-8d0b-804f3ee9d2fc" />
+
 
 ## Routing & Customization
 After that, take a look at the routing by opening up the kicad_pcb file.
@@ -43,7 +44,7 @@ The red lines represent the copper traces on the front of the board, while the b
 
 For my images, I uploaded a sprite of Jolteon, an apple core, and some sparkles using the method above. Just make sure that, if you are using a sprite for a game, find a scaled-up version rather than the original sprites. I also added a keychain hole as a mounting hole. KiCad will scale-up the sprite into a blurry mess that looks nothing like the original sprite. I used Wingdings for my font because it looks more interesting than just a basic readable font.
 
-<img width="479" height="433" alt="image" src="https://github.com/user-attachments/assets/dddfa2d5-8472-44e5-b999-9d2271f5fd2d" />
+<img width="472" height="425" alt="image" src="https://github.com/user-attachments/assets/f41999bb-8fcc-43a1-8371-c7b77d358d65" />
 
 KiCad also has a 3D viewer so you can see what your PCB will probably eventually look like!
 
