@@ -63,6 +63,10 @@ The biggest part was designing the pet sprite, which I have as a Jolteon. Simply
 
 the sprite I made -> <img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/53e2f84c-0a87-4b8c-941b-834d473e91e5" />
 
+I also made the third switch that I added have a function by making it do the ATTACK animation when pressed.
+<img width="341" height="175" alt="image" src="https://github.com/user-attachments/assets/51722483-daf3-40f2-afbd-fd38b6caa0f7" />
+
+
 ## Bill of Materials
 After completely designing the PCB and finishing your code, start planning for when you actually build your PCB by ordering the parts! I created a Bill of Materials (BOM), which lists the specific names, quantities, and prices for the parts of the PCB. Use the collection of gerber files, starbiepcb_gerbers.zip, when manufacturing the PCB. It is both below and in bom.csv.
 
